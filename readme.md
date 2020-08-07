@@ -1,4 +1,4 @@
-这是杨泡泡的测试
+## 这是杨泡泡的测试
 
 ## readme
 - 项目文档说明
@@ -46,26 +46,12 @@
     3、git commit -m '注释' ->  暂存区提交到本地仓库
     
 
+## git remote add origin  仓库地址
+    1、把本地仓库与远程仓库关联
 
-
-
-## 引入js代码
-```js
-var abc = 123;
-function show(){
-    console.log(abc);
-}
-show();
-```
-
-### 添加超链接
-
-
-
-
-## 单行引用
- >  jsklajl<br>
-
-
-## 列表
-6
+## git remote -v 
+    1、查看本地仓库关联的远程仓库
+## git push -u origin master
+    1、git push 本地仓库提交到远程仓库
+    2、-u origin master 设置默认远程仓库与分支
+    3、执行完这个命令之后，以后可以直接git push提交到远程仓库的master分支
